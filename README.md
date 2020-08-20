@@ -93,3 +93,44 @@ A stock-alike French/European parts mod
 - Lets the 'Steam "Blamont" Fuel Module' carry more types of fuels than just MP.
 - Create a variant of the MiraGino PCM carry cargo via B9PartSwitch
 - Create a variant of the MiraGino PCM able to carry switchable fuels like the Blamont
+
+# Procedural Parts (???)
+Adds procedural parts with customisation of their size and (basic) shape
+
+## Changes
+- Let themm carry more types of fuel
+  - Liquid Fuel
+  - Oxidizer
+  - LFO at ratio
+  - MonoPropellant
+  - Xenon
+  - (Needs CryoTanks) LH2
+  - (Needs CryoTanks) LH2/O
+
+# Mini Mod - Procedural Probes (WIP)
+Add probe parts driven by Procedural Parts, contains SAS, antennae & a reaction wheel
+
+## Variants
+Small Probe Core (0.35m to 0.938m)
+  Level 1 SAS, no reaction wheel, 5K Antennae
+Medium Probe Core (1.25m to 1.875m)
+  Level 3 SAS, 1nM reaction wheel, 10K Antennae
+Large Probe Core (2.5m + )
+  Level 4 SAS, 5nM reaction wheel, 20K Antennae
+
+Small & Medium get a tech-tree part upgrades to keep them relevant for smaller vessels.
+[TBD]
+
+# Custom Tweaks
+- Science
+  - Unify the data scale across mobile labs
+  - Switch EVA and Crew Reports so that there is only Low & High EVA Report rather than per biome
+  - Tweak the value & maximum values of Mystery Goo, Surface Sample, & Material Lab to make their weight:science ratio favourable
+  - Make the Transmission value for the Goo & Material experiments favour returning the complete module
+  - Science Experiments that are just numbers (Temperature, Seismic, Gravity, Atmospheric) transmit for full value
+  - Add some additional science reports for airless bodies to the Barometer scanner
+  - Tweak the science value of an Asteroid to be consistant in value regardless of location
+  - Add Telemetry Report to all probes
+  - Add a Science Container to all Command modules that don't have one already
+  - (TODO) Tweak Science container's to allow for transferring in vessel
+     Having to get out of a pod with a Kerbal, take the science reports, then put them back in again is a strange decision by Squad.
